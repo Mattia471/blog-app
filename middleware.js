@@ -4,7 +4,5 @@
 const { NextResponse } = require("next/server");
 
 export function middleware(req) {
-  console.log(req);
-
   return NextResponse.next();
 }
